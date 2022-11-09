@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="Business_card">
-      <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg' className='Picture' alt="portrait of Albrecht" />
+      <img className='Portrait' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg' className='Picture' alt="portrait of Albrecht" />
       <div className='Info'>
         <p>Albrecht</p>
         <p>Duke of Prussia</p>
@@ -21,7 +21,7 @@ function App() {
         <h1>About</h1>
         <p>I am the 37th Grand Master of the Teutonic Knights, interested in rebelling against Holy Roman Empire and joining the League of Torgau. I like to rule prosperously in my land.</p>
         <h1>Interests</h1>
-        <p>A huge fan of Lutheranism. Kingsdom founder. Leader. Kind of reformer. Education enjoyer. Teutonian knight either.</p>
+        <p>A huge fan of Lutheranism. Kingdom founder. Leader. Kind of reformer. Education enjoyer. Teutonian knight either.</p>
       </div>
       <div className='Social'>
         <p>all this icons here</p>

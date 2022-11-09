@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import profilePicture from './images/Albrecht_photo.png';
+//import profilePicture from './images/Albrecht_photo.png';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="Business_card">
-      <img src={profilePicture} className='Picture' alt="portrait of Albrecht" />
+      <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg' className='Picture' alt="portrait of Albrecht" />
       <div className='Info'>
         <p>Albrecht</p>
         <p>Duke of Prussia</p>

@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="Business_card">
       <img className='Portrait' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg' className='Picture' alt="portrait of Albrecht" />
+      <div className="Main">
       <div className='Info'>
         <p>Albrecht</p>
         <p>Duke of Prussia</p>
@@ -23,7 +24,8 @@ function App() {
         <h1>Interests</h1>
         <p>A huge fan of Lutheranism. Kingdom founder. Leader. Kind of reformer. Education enjoyer. Teutonian knight either.</p>
       </div>
-      <div className='Social'>
+      </div>
+      <div className='Footer'>
         <p>all this icons here</p>
       </div>
     </div>

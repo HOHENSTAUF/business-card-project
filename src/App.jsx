@@ -8,18 +8,18 @@ function App() {
 
   return (
     <div className="Business_card">
-      <img className='Portrait' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg' className='Picture' alt="portrait of Albrecht" />
+      <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg/800px-Lucas_Cranach_d.%C3%84._-_Bildnis_des_Markgrafen_Albrecht_von_Brandenburg-Ansbach_%28Herzog_Anton_Ulrich-Museum%29.jpg' className='Picture' alt="portrait of Albrecht" />
       <div className="Main">
       <div className='Info'>
         <p>Albrecht</p>
-        <p>Duke of Prussia</p>
-        <p>kissmyprussianduke.pr</p>
+        <p className="Profession">Duke of Prussia</p>
+        <p className="Site">kissmyprussianduke.pr</p>
       </div>
       <div className='Mail-me'>
         <p>eine Taube schicken</p>
       </div>
-      <div className='Summary'>
-        <h1>About</h1>
+      <div>
+        <h1 className="Subtitle">About</h1>
         <p>I am the 37th Grand Master of the Teutonic Knights, interested in rebelling against Holy Roman Empire and joining the League of Torgau. I like to rule prosperously in my land.</p>
         <h1>Interests</h1>
         <p>A huge fan of Lutheranism. Kingdom founder. Leader. Kind of reformer. Education enjoyer. Teutonian knight either.</p>

@@ -12,10 +12,11 @@
   background: #23252C;
 }
 
-.Portrait {
+img {
   position: absolute;
 width: 317px;
 height: 330px;
+
 left: 116px;
 top: 31px;
 border-radius: 10px 10px 0px 0px;
@@ -38,4 +39,60 @@ left: 116px;
 top: 758px;
 background: #4F93A0;
 border-radius: 0px 0px 10px 10px;
+}
+
+.Summary {
+  width: 247px;
+  height: 201px;
+  left: 151px;
+  top: 528px;
+  font-family: 'Inter';
+}
+
+.Info {
+width: 228px;
+height: 71px;
+left: 161px;
+top: 381px;
+}
+
+.Site {
+width: 228px;
+height: 16px;
+left: 161px;
+top: 436px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+text-align: center;
+
+color: #4A4E74;
+}
+
+.Profession {
+ 
+width: 178.06px;
+height: 14.19px;
+left: 186px;
+top: 413px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+
+color: #F47D27;
+}
+
+h1 {
+  font-weight: 10;
+  font-size: 16px;
+  line-height: 150%;
 }
